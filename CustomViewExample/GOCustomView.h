@@ -1,5 +1,5 @@
 //
-//  GOViewController.h
+//  GOCustomView.h
 //  CustomViewExample
 //
 //  Created by Samuel Goodwin on 8/26/11.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@class GOCustomView;
-@interface GOViewController : UIViewController
-@property(nonatomic, retain) IBOutlet GOCustomView *customView;
+@interface GOCustomView : UIView
+@property(nonatomic, retain) UIColor *bgColor;
 @end

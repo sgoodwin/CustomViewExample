@@ -14,21 +14,28 @@
 		6D6D16D21407FCF7008851A3 /* GOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D16D11407FCF7008851A3 /* GOAppDelegate.m */; };
 		6D6D16D51407FCF7008851A3 /* GOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D16D41407FCF7008851A3 /* GOViewController.m */; };
 		6D6D16D81407FCF7008851A3 /* GOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D6D16D61407FCF7008851A3 /* GOViewController.xib */; };
+		6D6D16E31407FD19008851A3 /* GOCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D16E21407FD19008851A3 /* GOCustomView.m */; };
+		6D6D16E51407FD87008851A3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D6D16E41407FD87008851A3 /* QuartzCore.framework */; };
+		6D6D16E71407FD8E008851A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D6D16E61407FD8E008851A3 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D6D16BF1407FCF7008851A3 /* CustomViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6D16C31407FCF7008851A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6D6D16C51407FCF7008851A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6D6D16C91407FCF7008851A3 /* CustomViewExample-Info.plist */ = {isa = PBXFileReference; path = "CustomViewExample-Info.plist"; sourceTree = "<group>"; };
+		6D6D16C91407FCF7008851A3 /* CustomViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomViewExample-Info.plist"; sourceTree = "<group>"; };
 		6D6D16CB1407FCF7008851A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D6D16CD1407FCF7008851A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D6D16CF1407FCF7008851A3 /* CustomViewExample-Prefix.pch */ = {isa = PBXFileReference; path = "CustomViewExample-Prefix.pch"; sourceTree = "<group>"; };
-		6D6D16D01407FCF7008851A3 /* GOAppDelegate.h */ = {isa = PBXFileReference; path = GOAppDelegate.h; sourceTree = "<group>"; };
+		6D6D16CF1407FCF7008851A3 /* CustomViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		6D6D16D01407FCF7008851A3 /* GOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOAppDelegate.h; sourceTree = "<group>"; };
 		6D6D16D11407FCF7008851A3 /* GOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOAppDelegate.m; sourceTree = "<group>"; };
-		6D6D16D31407FCF7008851A3 /* GOViewController.h */ = {isa = PBXFileReference; path = GOViewController.h; sourceTree = "<group>"; };
+		6D6D16D31407FCF7008851A3 /* GOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOViewController.h; sourceTree = "<group>"; };
 		6D6D16D41407FCF7008851A3 /* GOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOViewController.m; sourceTree = "<group>"; };
 		6D6D16D71407FCF7008851A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GOViewController.xib; sourceTree = "<group>"; };
+		6D6D16E11407FD19008851A3 /* GOCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOCustomView.h; sourceTree = "<group>"; };
+		6D6D16E21407FD19008851A3 /* GOCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOCustomView.m; sourceTree = "<group>"; };
+		6D6D16E41407FD87008851A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6D6D16E61407FD8E008851A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6D16E71407FD8E008851A3 /* CoreGraphics.framework in Frameworks */,
+				6D6D16E51407FD87008851A3 /* QuartzCore.framework in Frameworks */,
 				6D6D16C41407FCF7008851A3 /* UIKit.framework in Frameworks */,
 				6D6D16C61407FCF7008851A3 /* Foundation.framework in Frameworks */,
 			);
@@ -64,6 +73,8 @@
 		6D6D16C21407FCF7008851A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6D6D16E61407FD8E008851A3 /* CoreGraphics.framework */,
+				6D6D16E41407FD87008851A3 /* QuartzCore.framework */,
 				6D6D16C31407FCF7008851A3 /* UIKit.framework */,
 				6D6D16C51407FCF7008851A3 /* Foundation.framework */,
 			);
@@ -79,6 +90,8 @@
 				6D6D16D41407FCF7008851A3 /* GOViewController.m */,
 				6D6D16D61407FCF7008851A3 /* GOViewController.xib */,
 				6D6D16C81407FCF7008851A3 /* Supporting Files */,
+				6D6D16E11407FD19008851A3 /* GOCustomView.h */,
+				6D6D16E21407FD19008851A3 /* GOCustomView.m */,
 			);
 			path = CustomViewExample;
 			sourceTree = "<group>";
@@ -159,6 +172,7 @@
 				6D6D16CE1407FCF7008851A3 /* main.m in Sources */,
 				6D6D16D21407FCF7008851A3 /* GOAppDelegate.m in Sources */,
 				6D6D16D51407FCF7008851A3 /* GOViewController.m in Sources */,
+				6D6D16E31407FD19008851A3 /* GOCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +247,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomViewExample/CustomViewExample-Prefix.pch";
 				INFOPLIST_FILE = "CustomViewExample/CustomViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -244,6 +259,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomViewExample/CustomViewExample-Prefix.pch";
 				INFOPLIST_FILE = "CustomViewExample/CustomViewExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

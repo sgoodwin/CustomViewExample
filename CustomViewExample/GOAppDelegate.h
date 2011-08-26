@@ -12,8 +12,8 @@
 
 @interface GOAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (retain, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) GOViewController *viewController;
+@property (retain, nonatomic) GOViewController *viewController;
 
 @end
